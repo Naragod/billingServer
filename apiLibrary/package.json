@@ -1,0 +1,23 @@
+{
+    "name": "apilibrary",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "types": "dist/main.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "npm run build; clear; node dist/main",
+        "test": "clear; jest",
+        "pack": "npm run build; npm pack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@types/jest": "^29.5.3"
+    },
+    "dependencies": {
+        "jest": "^29.6.2",
+        "ts-jest": "^29.1.1"
+    }
+}
